@@ -79,7 +79,7 @@ const Property = () => {
         <>
             <Breadcrumb />
 
-            <section className='property_wrapper global_wrapper'>
+            <section className='property_wrapper property_section global_wrapper'>
                 <div className="container">
                     <div className="row">
                         {properties.map((property) => (

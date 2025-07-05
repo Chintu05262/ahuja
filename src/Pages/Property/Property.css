@@ -1,4 +1,4 @@
-.proeprty_box {
+.property_section .proeprty_box {
     margin-bottom: 50px;
 }
 
@@ -24,12 +24,6 @@
 .active_btn {
     background-color: var(--main-color) !important;
     color: var(--white-color) !important;
-}
-
-@media(max-width:992px) {
-    .breadcrumb_content h2 {
-        font-size: 40px;
-    }
 }
 
 @media(max-width:768px) {

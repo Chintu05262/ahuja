@@ -33,6 +33,11 @@
     box-shadow: 0 0 3px rgba(0, 0, 0, .4);
 }
 
+@media(max-width:992px){
+     .breadcrumb_content h2 {
+        font-size: 40px;
+    }
+}
 @media(max-width:768px) {
     .breadcrumb_wrapper__img img {
         height: 240px;
@@ -43,7 +48,10 @@
     .breadcrumb_content h2 {
         font-size: 40px;
     }
+
+
 }
+
 @media(max-width:576px) {
     .breadcrumb_wrapper__img img {
         height: 180px;
