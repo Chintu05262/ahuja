@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #1d1d1d;
+  --main-color: #270045;
+  --bg-light: #fbf7ff;
+}
+
+h1,
+h1 span,
+h2,
+h2 span,
+h3,
+h3 span {
+  font-family: "Poppins", sans-serif;
+
+}
+
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0 !important;
+}
+
+.global_btn {
+  background-color: var(--main-color);
+  padding: 10px 22px;
+  border-radius: 100px;
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+.global_content{
+  margin-top: 3rem;
+}
+.myBtn{
+  margin-top: 2rem;
+}
+
+@media(max-width:768px){
+  .global_content{
+    margin-top: 2rem;
+  }
+}
