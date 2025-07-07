@@ -72,8 +72,8 @@ const Footer = () => {
                                 <div className="footer_box">
                                     <h3>Quick Links</h3>
                                     <div className="footer_links">
-                                        <Link>About</Link>
-                                        <Link>Contact</Link>
+                                        <Link to='/About'>About</Link>
+                                        <Link to='/Contact'>Contact</Link>
                                         <Link>FAQ’s</Link>
                                         <Link>Blog</Link>
                                         <Link>Pricing Plans</Link>

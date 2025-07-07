@@ -100,7 +100,7 @@ const Property = () => {
                                         </p>
                                         <div className="property_bottom">
                                             <h6>{property.price}</h6>
-                                            <Link to="/" className='global_btn'>Property Details <i className="fa-solid fa-arrow-right"></i></Link>
+                                            <Link to="/PropertyDetails" className='global_btn'>Property Details <i className="fa-solid fa-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

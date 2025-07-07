@@ -1,0 +1,41 @@
+@media(max-width:1440px) {
+    .mybreadcrumb h2 {
+        font-size: 32px;
+    }
+}
+@media(max-width:768px) {
+    .mybreadcrumb h2 {
+        font-size: 24px;
+    }
+    .property_parra h3{
+        font-size: 18px;
+    }
+    .property_parra p{
+        font-size: 14px;
+        margin-top: 10px;
+        line-height: 24px;
+    }
+    .property_video h6, .property_info h6{
+        font-size: 18px;
+    }
+    .property_info__list ul{
+        grid-template-columns: repeat(1,1fr);
+        gap: 12px;
+    }
+    .property_features ul li{
+        font-size: 14px;
+    }
+    .property_features ul{
+        gap: 12px;
+    }
+    .property_details__right h3{
+        justify-content: start;
+        font-size: 24px;
+    }
+    .property_details__right h3 span{
+        font-size: 15px;
+    }
+    .enquiry_box{
+        padding: 16px;
+    }
+}
