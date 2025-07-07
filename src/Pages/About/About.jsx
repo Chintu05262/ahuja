@@ -14,9 +14,7 @@ const About = () => {
   return (
     <>
       <div className="breadcrumb_wrapper">
-        <div className="breadcrumb_wrapper__img">
-          <img src={breadcrumb} className='img-fluid' loading='lazy' alt="breadcrumb_img" />
-        </div>
+      
         <div className="breadcrumb_content mybreadcrumb">
           <h2>About Us</h2>
         </div>

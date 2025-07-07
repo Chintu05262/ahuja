@@ -52,9 +52,9 @@ const Header = () => {
                     </div>
                     <div className="office_map">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19536.216528717694!2d77.08022522207696!3d28.621041796514344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04ba6b064d0f%3A0xf609cdf712fe603e!2sJanakpuri%2C%20New%20Delhi%2C%20Delhi!5e1!3m2!1sen!2sin!4v1751720782506!5m2!1sen!2sin"
-                            width="600"
-                            height="450"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4889.775557802628!2d77.08643597651225!3d28.497801090184375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1939aa6004ef%3A0x3240c4c9cab262ab!2sCyber%20City%2C%20DLF%20Tower%208th%20Rd%2C%20DLF%20Cyber%20City%2C%20DLF%20Phase%202%2C%20Sector%2024%2C%20Gurugram%2C%20Haryana%20122002!5e1!3m2!1sen!2sin!4v1751869288789!5m2!1sen!2sin"
+                            width="100%"
+                            height="auto"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"

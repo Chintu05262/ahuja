@@ -5,7 +5,7 @@ import './Home.css';
 import Testimonials from '../../Components/Testimonials/Testimonials';
 
 
-import video1 from '../../assets/video1.mp4';
+import video2 from '../../assets/video2.mp4';
 import logo1 from '../../assets/logo1.webp';
 import logo2 from '../../assets/logo2.webp';
 import logo3 from '../../assets/logo3.jpg';
@@ -109,7 +109,7 @@ const Home = () => {
       <section className='banner_wrapper'>
         <div className="banner_img">
           <video
-            src={video1}
+            src={video2}
             loop
             muted
             autoPlay

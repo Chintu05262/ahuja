@@ -1,5 +1,14 @@
 .breadcrumb_wrapper__img img {
     width: 100%;
+}
+
+.breadcrumb_wrapper {
+    background-color: var(--main-color);
+    padding: 100px 0;
+}
+
+.breadcrumb_content h2 {
+    color: #fff;
 
 }
 
@@ -23,7 +32,7 @@
 .property_form {
     position: absolute;
     left: 50%;
-    bottom: -2rem;
+    bottom: -4rem;
     transform: translateX(-50%);
     width: 100%;
 }
@@ -46,7 +55,7 @@
 
 .propertyFilter.active {
     right: 0;
-    transition: .8s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    transition: .8s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .propertyFilter_box {
@@ -166,6 +175,14 @@
 
     .breadcrumb_content h2 {
         font-size: 40px;
+    }
+
+    .property_form {
+        bottom: -2rem;
+    }
+
+    .breadcrumb_wrapper {
+        padding: 70px 0;
     }
 
 

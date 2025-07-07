@@ -1,16 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import breadcrumb from '../../assets/breadcrumb.png';
+
 import './Breadcrumb.css'
 const Breadcrumb = () => {
-    const [isFilterOpen, setIsFilterOpen]= useState(false);
+    const [isFilterOpen, setIsFilterOpen] = useState(false);
 
     return (
         <>
             <div className="breadcrumb_wrapper">
-                <div className="breadcrumb_wrapper__img">
-                    <img src={breadcrumb} className='img-fluid' loading='lazy' alt="breadcrumb_img" />
-                </div>
+
                 <div className="breadcrumb_content">
                     <h2>Property</h2>
                 </div>
@@ -23,7 +21,7 @@ const Breadcrumb = () => {
                             <option value="3">Three</option>
                         </select>
                         <input type="text" placeholder='Enter Keywords' />
-                        <div className="fiter_btn" onClick={()=> setIsFilterOpen(true)}>
+                        <div className="fiter_btn" onClick={() => setIsFilterOpen(true)}>
                             <button className='global_btn'>Filter</button>
                         </div>
                         <div className="search_btn">
@@ -38,7 +36,7 @@ const Breadcrumb = () => {
                     <div className="propertyFilter_box">
                         <div className="propertyFilter_box__header">
                             <h3>filter</h3>
-                            <div className="filter_cancel" onClick={()=> setIsFilterOpen(false)}>
+                            <div className="filter_cancel" onClick={() => setIsFilterOpen(false)}>
                                 <i className="fa-solid fa-xmark"></i>
                             </div>
                         </div>
@@ -49,8 +47,8 @@ const Breadcrumb = () => {
                                     <div className="price_box">
                                         <label>Min:</label>
                                         <input type="number" placeholder='₹25,000' />
-                                      
-                                         <label>Max:</label>
+
+                                        <label>Max:</label>
                                         <input type="number" placeholder='₹100,000' />
                                     </div>
                                 </div>
@@ -130,7 +128,7 @@ const Breadcrumb = () => {
 
                                 </div>
                             </div>
-                              <div className="filterInfo_box">
+                            <div className="filterInfo_box">
                                 <h6>Floor:</h6>
                                 <div className="filterInfo_box__list">
                                     <div className="list_box">

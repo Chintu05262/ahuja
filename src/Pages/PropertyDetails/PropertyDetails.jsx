@@ -3,6 +3,10 @@ import GlobalBreadcrumb from '../../Components/GlobalBreadcrumb/GlobalBreadcrumb
 import { Link } from 'react-router-dom';
 import './PropertyDetails.css';
 import office1 from '../../assets/office2.jpg';
+import officeinner1 from '../../assets/officeinner1.jpg';
+import officeinner2 from '../../assets/officeinner2.jpg';
+import officeinner3 from '../../assets/officeinner3.jpg';
+import officeinner4 from '../../assets/officeinner4.jpg';
 
 const PropertyDetails = () => {
     return (
@@ -19,6 +23,23 @@ const PropertyDetails = () => {
                                     </p>
                                     <p>We guide you through the entire home-buying process, from searching for properties to negotiating the best deal. With access to exclusive listings and market insights, we’ll help you find the perfect place to call home. Your perfect property is just a click away.
                                     </p>
+                                </div>
+                                <div className="property_video">
+                                    <h6>Property Images</h6>
+                                    <div className="property_images">
+                                        <div className="property_images__box">
+                                            <img src={officeinner1} className='img-fluid' loading='lazy' alt="officeinner2" />
+                                        </div>
+                                        <div className="property_images__box">
+                                            <img src={officeinner2} className='img-fluid' loading='lazy' alt="officeinner2" />
+                                        </div>
+                                        <div className="property_images__box">
+                                            <img src={officeinner3} className='img-fluid' loading='lazy' alt="officeinner2" />
+                                        </div>
+                                        <div className="property_images__box">
+                                            <img src={officeinner4} className='img-fluid' loading='lazy' alt="officeinner2" />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="property_video">
                                     <h6>Property Video</h6>
