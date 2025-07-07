@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // adjust path as needed
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
