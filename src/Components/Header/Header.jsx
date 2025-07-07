@@ -44,10 +44,10 @@ const Header = () => {
                     <div className="mobile_menu">
                         <ul>
                             <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
-                            <li><Link to="/About">About us</Link></li>
+                            <li><Link to="/About" onClick={() => setIsMenuOpen(false)}>About us</Link></li>
                             <li><Link to="/Property" onClick={() => setIsMenuOpen(false)}>our properties</Link></li>
                             <li><Link to="/Blogs">Blogs</Link></li>
-                            <li><Link to="/Contact">Contact us</Link></li>
+                            <li><Link to="/Contact" onClick={() => setIsMenuOpen(false)}>Contact us</Link></li>
                         </ul>
                     </div>
                     <div className="office_map">
