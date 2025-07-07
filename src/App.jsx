@@ -8,6 +8,7 @@ import About from './Pages/About/About'
 import Property from './Pages/Property/Property'
 import PropertyDetails from './Pages/PropertyDetails/PropertyDetails'
 import Contact from './Pages/Contact/Contact'
+import Blogs from './Pages/Blogs/Blogs';
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Property" element={<Property />} />
         <Route path="/PropertyDetails" element={<PropertyDetails />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Blogs" element={<Blogs />} />
       </Routes>
       <Footer />
     </Router>
